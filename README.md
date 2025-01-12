@@ -1,10 +1,10 @@
-# Bank Management System
+# Bank Management System 🏦
 
 This project is a *Bank Management System* implemented in Python using *Tkinter* for the user interface and *MySQL* as the database. It allows users to perform essential banking operations such as creating accounts, logging in, checking balances,delete account, depositing money, and withdrawing money.
 
 ---
 
-## Features
+## 🚀Features
 
 - *User Creation*: New users can create accounts with a name, age, PIN, state, and gender. The system assigns a unique account number.
 - *User Login*: Existing users can log in securely using their name and PIN.
@@ -16,7 +16,7 @@ This project is a *Bank Management System* implemented in Python using *Tkinter*
 
 ---
 
-## Technologies Used
+## 🧑‍💻Technologies Used
 
 - *Python*: Programming language.
 - *Tkinter*: GUI library for Python.
@@ -25,7 +25,7 @@ This project is a *Bank Management System* implemented in Python using *Tkinter*
 
 ---
 
-## Setup Instructions
+## 🛠️Setup Instructions
 
 Follow these steps to run the project on your local system:
 
@@ -71,7 +71,7 @@ Follow these steps to run the project on your local system:
 
 ---
 
-## Database Schema
+## 📖Database Schema
 
 The project uses a single table table1 with the following columns:
 
@@ -88,7 +88,7 @@ The project uses a single table table1 with the following columns:
 
 ---
 
-## How to Use
+## 🏃How to Use
 
 1. *Main Menu*:
    - Click *"New User"* to create a new account.
@@ -137,7 +137,7 @@ The project uses a single table table1 with the following columns:
 
 ---
 
-## Contributing
+## Contributing👨‍💻
 
 Contributions are welcome! To contribute:
 
@@ -158,7 +158,7 @@ Contributions are welcome! To contribute:
 
 ---
 
-## Conclusion
+## Conclusion👓
 
 This project provides a simple and functional *Bank Management System* that can be extended further for educational or professional use. It covers basic operations like user management,delete accounts, deposits, and withdrawals with a clean graphical interface.
 
@@ -166,7 +166,7 @@ Feel free to enhance the project with additional features such as *transaction h
 
 ---
 
-# Download my Application
+# Download my Application📚
 
 https://drive.google.com/file/d/1b0NgrUxzAm9Ch5qRZKCrQpt8rmK4CVQj/view?usp=drive_link
 
