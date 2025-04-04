@@ -32,21 +32,23 @@ bank-management/
 
 ├── templates/ │
 
-  ├── home.html │ 
+      ├── home.html │ 
   
-  ├── login.html │
+      ├── login.html │
   
-  ├── register.html │ 
+      ├── register.html │ 
   
-  ├── dashboard.html │
+      ├── dashboard.html │
   
-  ├── deposit.html │ └── withdraw.html
+      ├── deposit.html │ └── withdraw.html
 
-  ├── exit.html
+      ├── delete.html
+
+      ├── exit.html
   
-├── app.py # Main Flask application file
+├── app.py (Main Flask application file)
   
-├── requirements.txt # Python dependencies
+├── requirements.txt (Python dependencies)
   
 └── README.md
   
