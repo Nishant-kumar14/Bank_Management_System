@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-image: url("https://static.vecteezy.com/system/resources/previews/010/518/840/original/digital-finance-and-banking-service-in-futuristic-background-bank-building-with-online-payment-transaction-secure-money-and-financial-innovation-technology-vector.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+            padding-top: 50px;
+        }
+
+        .dashboard-box {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .dashboard-box h2 {
+            margin-bottom: 25px;
+        }
+
+        .dashboard-box p {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .btn {
+            margin: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container dashboard-box text-center">
+        <h2>Dashboard</h2>
+        <p>Current Balance: ₹{{ user.balance }}</p>
+        <a href="{{ url_for('deposit') }}" class="btn btn-success">Deposit</a>
+        <a href="{{ url_for('withdraw') }}" class="btn btn-warning">Withdraw</a>
+        <form action="{{ url_for('delete') }}" method="POST" style="display: inline;">
+            <button type="submit" class="btn btn-danger">Delete Account</button>
+        </form>
+        <a href="{{ url_for('home') }}" class="btn btn-secondary">Exit</a>
+    </div>
+</body>
+</html>

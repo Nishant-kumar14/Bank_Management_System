@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Withdraw Money</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-danger">
+  <div class="container mt-5">
+    <h2 class="text-center">Withdraw Money</h2>
+    <form method="POST">
+      <div class="form-group">
+        <label>Amount to Withdraw:</label>
+        <input type="number" name="amount" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-light">Confirm Withdraw</button>
+      <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Back</a>
+    </form>
+  </div>
+</body>
+</html>

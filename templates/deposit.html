@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deposit Money</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-success text-white">
+  <div class="container mt-5">
+    <h2 class="text-center">Deposit Money</h2>
+    <form method="POST">
+      <div class="form-group">
+        <label>Amount to Deposit:</label>
+        <input type="number" name="amount" class="form-control" required min="1">
+      </div>
+      <button type="submit" class="btn btn-light">Confirm Deposit</button>
+      <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Back</a>
+    </form>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }} mt-3">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+  </div>
+</body>
+</html>
